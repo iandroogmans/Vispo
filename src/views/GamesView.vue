@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 import DataView from 'primevue/dataview'
 import ProgressSpinner from 'primevue/progressspinner'
