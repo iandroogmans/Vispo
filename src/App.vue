@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { RouterLink, RouterView, useRouter } from 'vue-router'
 import Menubar from 'primevue/menubar'
-import MenuItem from 'primevue/MenuItem'
+import type { MenuItem } from 'primevue/MenuItem'
 import Menu from 'primevue/Menu'
 
 import { supabase } from './supabase'
